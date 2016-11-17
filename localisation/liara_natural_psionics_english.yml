@@ -1,5 +1,3 @@
-####################################
- # Traits
- ####################################
-trait_liara_natural_psionics:0 "Natural Psykers"
-trait_liara_natural_psionics_desc:0 "§LMembers of this species possess an innate genetic talent for psionics.§!\n"
+l_english:
+ trait_liara_natural_psionics:0 "Natural Psykers"
+ trait_liara_natural_psionics_desc:0 "§LMembers of this species possess an innate genetic talent for psionics.§!\n"
