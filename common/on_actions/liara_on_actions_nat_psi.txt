@@ -1,0 +1,5 @@
+on_game_start = {
+	events = {
+		liara_natural_psionics_setup.1
+	}
+}
