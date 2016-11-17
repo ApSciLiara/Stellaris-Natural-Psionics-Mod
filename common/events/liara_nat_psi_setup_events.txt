@@ -1,0 +1,16 @@
+#This event gives you access to the psionic theory tech at the start of the game.
+
+event = {
+	id = liara.nat_psi.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_trait = trait_liara_natural_psionics
+			}
+			add_research_option = tech_psionic_theory
+		}
+	}	
+}
