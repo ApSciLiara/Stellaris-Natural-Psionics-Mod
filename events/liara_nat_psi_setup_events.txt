@@ -1,3 +1,5 @@
+namespace = liara_natural_psionics_setup
+
 #This event gives you access to the psionic theory tech at the start of the game.
 
 event = {
