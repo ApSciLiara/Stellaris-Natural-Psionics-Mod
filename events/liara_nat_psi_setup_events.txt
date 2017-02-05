@@ -1,16 +1,16 @@
 namespace = liara_natural_psionics_setup
 
-#This event gives you access to the psionic theory tech at the start of the game.
+# This event gives you access to the psionic theory tech at the start of the game.
 
 event = {
-	id = liara_nat_psi.1
+	id = liara_natural_psionics_setup.1
 	hide_window = yes
 	is_triggered_only = yes
 
 	immediate = {
 		every_country = {
 			limit = {
-				has_trait = trait_liara_natural_psionics
+				has_trait = trait_liara_natural_psykers
 			}
 			add_research_option = tech_psionic_theory
 		}
